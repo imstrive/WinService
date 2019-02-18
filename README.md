@@ -1,2 +1,3 @@
-# WinService
-A Windows Service Demo Writen by Dotnet
+Windows服务程序
+技术栈：Console + TopShelf + Quartz 
+
