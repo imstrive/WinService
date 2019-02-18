@@ -22,7 +22,7 @@ namespace LTS.WinService
         {
             //启动调度器
             scheduler.Start();
-
+            //具体任务启动可在配置文件编写
             string cron1 = ConfigurationManager.AppSettings["cron1"].ToString();
             if(!string.IsNullOrEmpty(cron1))
             {

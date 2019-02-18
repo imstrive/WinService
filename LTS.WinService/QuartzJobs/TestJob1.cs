@@ -1,4 +1,5 @@
-﻿using Quartz;
+﻿using LTS.WinService.Utils;
+using Quartz;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace LTS.WinService.QuartzJobs
         public void Execute(IJobExecutionContext context)
         {
             Console.WriteLine(DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"));
+            NLogHelper.Info(DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"));
         }
     }
 }

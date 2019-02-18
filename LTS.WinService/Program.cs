@@ -18,8 +18,8 @@ namespace LTS.WinService
                 x.RunAsLocalSystem();
 
                 x.SetDescription("Quartz测试服务");
-                x.SetDisplayName("Quzrtz定时服务");
-                x.SetServiceName("Quzrtz定时服务");
+                x.SetDisplayName("Quartz定时服务");
+                x.SetServiceName("Quartz定时服务");
 
                 x.EnablePauseAndContinue();
             });
